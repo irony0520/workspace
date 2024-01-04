@@ -1,0 +1,29 @@
+package chapter_3;
+
+import java.util.Scanner;
+
+public class DiceGame {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int d1 = (int)Math.random() * 6 +1;
+		Scanner scanner = new Scanner(System.in);
+		int da = Integer.parseInt(scanner.nextLine()); 
+		
+		System.out.println(d1);
+		
+		System.out.print("첫 번째 주사위를 굴리시겠습니까? ->");
+		
+		System.out.print("두 번째 주사위를 굴리시겠습니까? ->");
+		
+		System.out.print("세 번째 주사위를 굴리시겠습니까? ->");
+		
+		
+		
+//		if (d1==d2 && d2==d3) {
+//			System.out.println(10000+d1*1000);
+//		}
+	}
+
+}

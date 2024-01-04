@@ -1,0 +1,40 @@
+package thisisjava;
+
+import java.util.Scanner;
+
+public class Hello {
+
+	public static void main(String[] args) {
+		
+//	System.out.println(Math.PI);
+		// TODO Auto-generated method stub
+//		short  b =10;
+//		byte s = b;
+	
+//		System.out.printf("%1$d %2$d",10 ,20);
+//		System.out.printf("%d\n %s\n %f\n", 100, "str", 1.23);
+		
+//		
+//		Scanner scan = new Scanner(System.in);
+//		String str = scan.nextLine();
+//		int a =	Integer.parseInt(str);
+//
+		Scanner scanner = new Scanner(System.in);
+		String inputData = scanner.nextLine(); 
+		double p = Math.PI;
+		double value  = Double.parseDouble(inputData);
+		double h = value*value*p;
+		
+		System.out.println(h);
+		
+		System.out.printf("%s\n", "상품의 가격: 123원");
+		System.out.printf("%s\n","상품의 가격:\t 123원");
+		System.out.printf("%s\n","상품의 가격: 123\t원");
+		System.out.printf("%s\n","상품의 가격: 000123원");
+		System.out.printf("%s\n","원의 반지름을 입력하세요: ");
+	
+		System.out.printf("%s\n","반지름이 10인 원의 넓이:\t ");
+//		
+	}
+
+}
