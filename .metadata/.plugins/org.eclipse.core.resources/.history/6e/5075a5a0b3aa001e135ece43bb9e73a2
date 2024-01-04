@@ -1,0 +1,13 @@
+package thisisjava;
+
+public class Hello {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		short  b =10;
+//		byte s = b;
+	
+		System.out.printf("%1$d","%2$d",10,20);
+	}
+
+}
