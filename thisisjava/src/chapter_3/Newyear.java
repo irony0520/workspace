@@ -21,7 +21,10 @@ public class Newyear {
 		else {
 			System.out.println("윤년이 아닙니다.");
 		}
-			
+			//연도 입력
+		//if 4의 배수인가 
+		
+		
 	}
 
 }

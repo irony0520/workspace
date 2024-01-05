@@ -1,0 +1,52 @@
+package chapter_3;
+
+import java.util.Scanner;
+
+public class PassId {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.print("출입증에 표기된 호수를 입력하세요 ->");
+		Scanner scanner = new Scanner(System.in);
+		int idCard = Integer.parseInt(scanner.nextLine());
+			
+		
+		
+		
+		switch(idCard) {
+	
+		case 302:
+			System.out.printf("%d호",302);
+		
+		case 202:
+			System.out.printf("%d호",202);
+		
+		case 201:
+			System.out.printf("%d호",201);
+		
+		case 103:
+			System.out.printf("%d호",103);
+		
+		case 102:
+			System.out.printf("%d호",102);
+		
+		case 101:
+			System.out.printf("%d호",101);
+			
+	
+			break;
+		}
+		
+	
+		
+	}
+
+	
+	
+	
+	
+
+
+	
+}

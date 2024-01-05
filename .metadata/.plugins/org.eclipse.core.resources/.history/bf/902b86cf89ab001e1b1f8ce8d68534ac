@@ -1,0 +1,20 @@
+package chapter_3;
+
+public class Fibonacci {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+
+if문으로 첫번째, 두번쨰는 0,1로 고정하고 
+else에 for문 집어넣기    ?
+
+for문 
+int i=0,i<=number.length,i++
+sum = num[i-2] +num[i-1]?
+		
+
