@@ -1,0 +1,14 @@
+package ch05;
+
+public class ChatAtExam {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String ssn = "9606241230123";
+		char gender = ssn.charAt(6);
+		System.out.println(gender);
+
+	}
+
+}

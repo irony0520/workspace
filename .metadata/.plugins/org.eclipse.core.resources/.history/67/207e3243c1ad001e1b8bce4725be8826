@@ -1,0 +1,22 @@
+package ch05;
+
+public class StringExam {
+
+	
+	String str1 = new String("abc");
+	String str2 = new String("abc");
+	String str3 = "abc";
+	String str4 = "abc";
+	String str1 = new String("abc");
+		String str2 = new String("abc");
+		String str3 = "abc";
+		String str4 = "abc";
+		String str1 = new String("abc");
+			String str2 = new String("abc");
+			String str3 = "abc";
+			String str4 = "abc";
+	
+//	System.out.println(str3 == str4);
+	System.out.print("숫자를 입력하세요 ->");
+	
+}

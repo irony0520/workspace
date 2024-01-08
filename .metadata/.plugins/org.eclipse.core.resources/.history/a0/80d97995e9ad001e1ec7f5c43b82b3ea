@@ -1,0 +1,44 @@
+package ch05;
+
+import java.util.Scanner;
+
+public class Array3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int classes = 0;
+		int students = 0;
+		int height = 0;
+		int heights [][] = new int[][];
+		System.out.print("학급 수를 입력하세요-->");
+		
+		Scanner scanner = new Scanner(System.in);
+		classes = scanner.nextInt();
+		
+		System.out.print("학생 수를 입력하세요-->");
+		
+		students = scanner.nextInt();
+		
+	
+		for(int i =1;i<=classes;i++) {
+						
+		for(int j = 1;j<=students;j++) {
+			System.out.print(i +"반의"+ j +"번 학생의 키를 입력하세요-->");
+			height = scanner.nextInt();
+			
+		}
+		
+		
+		
+			
+			
+		}
+		
+	
+		}
+		
+		
+	}
+
+

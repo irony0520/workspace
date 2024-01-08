@@ -15,14 +15,14 @@ public class Fibonacci {
 		int sum = 0;
 		int a = 0;
 		int b = 1;
-		if(fNumber ==1) {
+		if(fNumber ==0) {
 			System.out.println(0);
-		}else if(fNumber ==2) {
+		}else if(fNumber ==1) {
 			System.out.println(1);
 		}
 		
 		 else {
-	    for(int i =3;i<=fNumber;i++) {
+	    for(int i =2;i<=fNumber;i++) {
 		
 		   sum= a+b;
 		   a=b;

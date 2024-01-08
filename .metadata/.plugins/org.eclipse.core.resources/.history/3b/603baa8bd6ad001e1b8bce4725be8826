@@ -1,0 +1,45 @@
+package ch05;
+
+public class NsArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+//		int[][] array = {
+//				{1,2,3},
+//				{4,5,6},
+//				{7,8,9}
+//		};
+		
+		int[][] height = new int[3][3]; //두번째 배열에 숫자입력시 사이즈 고정
+		
+		//1반 학생들의 키
+		
+		height[0][0] = 160;  //1반 1번
+		height[0][1] = 165; 
+		height[0][2] = 170;
+	
+		
+	for(int j =0; j<height.length;j++) {
+		System.out.print("\n2반 학생들의 키 : ");
+		
+		for(int i = 0; i <height[0].length;i++) {
+			System.out.print(height[1][i] = 170);
+		}
+	}
+		 //2반 학생들
+		
+		for(int j =0; j<height.length;j++) {
+			System.out.print("\n3반 학생들의 키 : ");
+		
+		for(int i = 0; i <height[0].length;i++) {
+			System.out.print(height[2][i] = 180);
+		} //3반 학생들
+		
+		
+		
+		
+	}
+
+}
+}
