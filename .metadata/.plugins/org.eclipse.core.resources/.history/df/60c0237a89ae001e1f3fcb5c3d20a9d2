@@ -1,0 +1,27 @@
+package Question;
+
+import java.util.Scanner;
+
+public class QNine {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int classes = 0;
+		
+		
+		
+		
+		System.out.print("1.학생수 2.점수입력 3.점수리스트 4.분석 5.종료");	
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("선택 -->");	
+		classes = scanner.nextInt();
+		
+		
+	
+		
+		
+		
+	}
+
+}

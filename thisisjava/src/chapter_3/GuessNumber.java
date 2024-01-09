@@ -27,7 +27,7 @@ public class GuessNumber {
 		if(gNumber==answer) {
 		   
 		 System.out.print("정답입니다! 추측 횟수는.. \n계속하시겠습니까?(y,n)");
-		 
+		
 		
 		 String YesOrNo = scanner.nextLine();
 		 

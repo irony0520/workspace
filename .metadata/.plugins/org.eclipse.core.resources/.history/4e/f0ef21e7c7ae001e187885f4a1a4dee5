@@ -1,0 +1,20 @@
+package ch06;
+
+public class Car {
+	
+	String model = "현대 자동차";
+	int speed = 60;
+	boolean start = true;
+	
+	{
+		
+		speed = 30;
+		model = "기아 자동차"; //디폴트 > 명시적 초기화 >초기화 블록 > 생성자 (오른쪽으로갈수록 우선순위증가)
+	}
+
+	Car () {
+		model = "자동차";
+	}
+		
+	
+}
