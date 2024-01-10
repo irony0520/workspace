@@ -1,0 +1,15 @@
+package javaquestion;
+
+public class JavaQuestion62 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		JavaQuestion61 card1 = new JavaQuestion61(3,false);
+		JavaQuestion61 card2 = new JavaQuestion61();
+		
+		System.out.println(card2.info());
+		
+	}
+
+}

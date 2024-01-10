@@ -1,0 +1,52 @@
+package ch06;
+
+public class Rectangle {
+
+	
+	int width = 30;
+	int height = 30;
+	
+	
+	
+//	Rectangle (int width, int height) {
+//		this.width = width;
+//		this.height = height;
+//	}
+	
+	
+	
+	
+	void round(int width,int height) {
+		
+		System.out.println((width+height)*2);
+		
+	}
+	
+	int area(int width,int height) {
+		return width*height;
+	}
+	
+
+	double area(double width,double height) {
+		return (double)(width*height);
+	}
+	
+	
+
+	
+	
+//      String round(int x,int y) {
+//		
+//		return "가로가" + x + ", 세로가" + y +"인 직사각형의 둘레 :" + (x+y)*2;
+//	
+	
+//	String drive(String name) {
+//		return name + "을 태우고 " + this.speed + "의 속도로 출발합니다. ";
+//	}
+	
+//	("가로가" + width + ", 세로가" + height +"인 직사각형의 둘레 :" + (width+height)*2);
+	
+	
+}
+
+
