@@ -1,0 +1,15 @@
+package ch07;
+
+public class Driver {
+
+	public Vehicle vehicle;
+	
+	//has a 관계(driver가 vehicle을 소유)
+	
+	public void drive() {
+		
+		vehicle.run();
+		
+	}
+	
+}

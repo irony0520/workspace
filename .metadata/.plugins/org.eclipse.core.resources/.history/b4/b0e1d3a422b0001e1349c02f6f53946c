@@ -1,0 +1,19 @@
+package tij.ch06.example;
+
+public class Account {
+
+	String accountNumber;
+	String accountOwner;
+	String bankAccount;
+	
+	
+	
+	void account(int a) {
+		
+		this.accountNumber = "111-111";
+		this.accountOwner = "홍길동";
+		this.bankAccount = "10000";
+					
+	}
+		
+}

@@ -1,0 +1,27 @@
+package tij.ch06.example;
+
+import java.util.Scanner;
+
+public class Exercise20 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner scanner = new Scanner(System.in);
+		int number;
+		
+		System.out.println("1.계좌생성 2.계좌목록 3.예금 4.출금 5.종료");
+		System.out.println("선택>");
+		number = scanner.nextInt();
+		scanner.nextLine();
+		 
+		
+	
+		
+		
+		
+		
+	
+	}
+
+}

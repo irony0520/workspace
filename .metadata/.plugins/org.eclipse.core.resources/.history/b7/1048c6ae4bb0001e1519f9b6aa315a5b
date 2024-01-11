@@ -1,0 +1,13 @@
+package ch07;
+
+public class Driver {
+
+	public Vehicle vehicle;
+	
+	public void drive() {
+		
+		vehicle.run();
+		
+	}
+	
+}

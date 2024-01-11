@@ -1,0 +1,16 @@
+package ch07;
+
+public class Driver {
+
+	public Vehicle vehicle;
+	
+	//has a 관계(driver가 vehicle을 소유)
+	//bus taxi 는 is a 관계 
+	
+	public void drive() {
+		
+		vehicle.run();
+		
+	}
+	
+}

@@ -1,0 +1,14 @@
+package ch07;
+
+public class Child extends Parent{
+	
+	
+	@Override
+
+	public void method2() {
+		System.out.println("Child의 method2() 입니다");
+
+	
+	
+	}
+}

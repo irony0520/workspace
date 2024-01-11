@@ -1,0 +1,23 @@
+package tij.ch06.example;
+
+public class MemberService {
+
+	String id;
+	String password;
+		
+		
+	boolean login(String id, String password) {
+		this.id = "hong";
+		this.password = "12345";
+				return true;
+		
+	}
+		
+	boolean logout() {
+		return false;
+	}
+		
+		
+	}
+
+
