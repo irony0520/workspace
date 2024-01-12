@@ -1,0 +1,12 @@
+package impl.practice;
+
+public class SalaryOrCeoExam {
+
+	
+	
+	public static void main(String[] args) {
+		
+		SalaryMan salary = new SalaryMan("ㅇ",23,304943);
+		System.out.println(salary.getInfo());
+	}
+}

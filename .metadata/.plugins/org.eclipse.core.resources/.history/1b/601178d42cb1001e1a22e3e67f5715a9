@@ -12,7 +12,7 @@ public class SalaryMan extends NameTag{
 	}
 	
 	
-	public String getInfo() {
+	String getInfo() {
 		return "이름: " + name + "번호: " + tag + "월급: " + salary;
 		
 	}

@@ -31,7 +31,7 @@ public class BusinessMan extends NameTag{
 	
 	@Override
 	public double calcTax() {
-		
+		// TODO Auto-generated method stub
 		double tax =0.0;
 		int taxCost = wholeProfit-wholeCost;
 		if(taxCost>=40000000) {

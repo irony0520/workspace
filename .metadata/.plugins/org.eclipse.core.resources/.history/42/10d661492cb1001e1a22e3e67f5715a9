@@ -4,18 +4,13 @@ public class SalaryMan extends NameTag{
 
 	int salary;
 	
-	public SalaryMan(String name,int tag,int salary) {
-		this.name = name;
-		this.tag = tag;
-		this.salary = salary;
-		
-	}
+//	public SalaryMan(String name,int tag,int salary) {
+//		this.name = name;
+//		this.tag = tag;
+//		this.salary = salary;
+//		
+//	}
 	
-	
-	public String getInfo() {
-		return "이름: " + name + "번호: " + tag + "월급: " + salary;
-		
-	}
 	
 	
 	@Override

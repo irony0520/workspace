@@ -12,11 +12,6 @@ public class SalaryMan extends NameTag{
 	}
 	
 	
-	public String getInfo() {
-		return "이름: " + name + "번호: " + tag + "월급: " + salary;
-		
-	}
-	
 	
 	@Override
 	public String getName() {

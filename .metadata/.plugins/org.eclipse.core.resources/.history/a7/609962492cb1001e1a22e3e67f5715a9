@@ -5,12 +5,6 @@ public class BusinessMan extends NameTag{
 	int wholeProfit;
 	int wholeCost;
 	
-	public BusinessMan(String name,int tag,int wholeProfit,int wholeCost) {
-		this.name = name;
-		this.tag = tag;
-		this.wholeProfit = wholeProfit;
-		this.wholeCost = wholeCost;
-	}
 	
 	
 	
@@ -31,7 +25,7 @@ public class BusinessMan extends NameTag{
 	
 	@Override
 	public double calcTax() {
-		
+		// TODO Auto-generated method stub
 		double tax =0.0;
 		int taxCost = wholeProfit-wholeCost;
 		if(taxCost>=40000000) {
