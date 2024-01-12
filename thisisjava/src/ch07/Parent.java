@@ -2,6 +2,9 @@ package ch07;
 
 public class Parent {
 	
+	public String field1;
+	
+	
 	public void method1() {
 		System.out.println("parent의 method1() 메소드");
 			

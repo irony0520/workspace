@@ -1,0 +1,54 @@
+package impl.practice;
+
+public class Truck extends Vehicle{
+
+	public Truck(String Model, int price, int tax) {
+		super(Model, price, i);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String getModel() {
+		// TODO Auto-generated method stub
+		return super.getModel();
+	}
+
+	@Override
+	public void setModel(String model) {
+		// TODO Auto-generated method stub
+		super.setModel(model);
+	}
+
+	@Override
+	public int getPrice() {
+		// TODO Auto-generated method stub
+		return super.getPrice();
+	}
+
+	@Override
+	public void setPrice(int price) {
+		// TODO Auto-generated method stub
+		super.setPrice(price);
+	}
+
+//	int weight;
+//	
+//
+//	Truck(String model,price,weight){
+//		System.out.println("모델명..");
+//	}
+//	
+//	public void calcTax(int weight) {
+//		if(weight>=10000) {
+//			tax = price*0.04;
+//		}
+//		else if(weight <10000 && weight>=5000) {
+//			tax = price*0.02;
+//		}else {
+//			tax = price*0.01;
+//			
+//		}
+//	}
+}
+
+//

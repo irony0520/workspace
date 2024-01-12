@@ -1,0 +1,10 @@
+package ch08.example;
+
+public class Cat implements Soundable{
+	
+	public String sound();{
+		System.out.println("야옹");
+	}
+	
+
+}

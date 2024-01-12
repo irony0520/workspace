@@ -1,0 +1,12 @@
+package impl.practice;
+
+public abstract class NameTag {
+	
+	String name;
+	
+	
+
+	public abstract String getNameTag();
+	
+	public abstract double calcTax();
+}

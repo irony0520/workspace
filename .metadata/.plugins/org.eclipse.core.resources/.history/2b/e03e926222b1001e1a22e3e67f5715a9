@@ -1,0 +1,26 @@
+package impl.practice;
+
+public class Truck extends Vehicle{
+	
+
+//	int weight;
+//	
+//
+//	Truck(String model,price,weight){
+//		System.out.println("모델명..");
+//	}
+//	
+//	public void calcTax(int weight) {
+//		if(weight>=10000) {
+//			tax = price*0.04;
+//		}
+//		else if(weight <10000 && weight>=5000) {
+//			tax = price*0.02;
+//		}else {
+//			tax = price*0.01;
+//			
+//		}
+//	}
+}
+
+//

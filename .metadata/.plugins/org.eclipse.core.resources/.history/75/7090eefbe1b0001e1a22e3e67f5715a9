@@ -1,0 +1,22 @@
+package ch08;
+
+public class RemoteConExam {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//
+		RemoteControl rc; //인터페이스(리모트컨트롤)타입은 그 구현 클래스를 모두 담을 수 있다. 명시된 메소드만 visible(super처럼)
+		
+		
+		rc = new Television(); //객체 선언
+		rc.turnOn();
+		
+		rc = new Audio();
+		rc.turnOn();
+		
+		
+
+	}
+
+}

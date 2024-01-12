@@ -1,0 +1,20 @@
+package ch08;
+
+public class ServiceExam {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Service service = new ServiceImpl();
+		service.defaultMethod1();
+		service.defaultMethod2();
+		
+		System.out.println();
+		
+		
+		Service.staticMethod1();
+	ervice.staticMethod2();
+		
+	}
+
+}

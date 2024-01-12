@@ -1,0 +1,27 @@
+package impl.practice;
+
+public class Car extends Vehicle{
+	
+	int b;
+	
+	
+	
+	Car(String model,price,tax){
+		System.out.println("모델명..");
+	}
+	
+	public void calcTax(int b) {
+		if(b>=3000) {
+			tax = price*0.05;
+		}
+		else if(b <3000 && b>=1500) {
+			tax = price*0.03;
+		}else {
+			tax = price*0.01;
+			
+		}
+	}
+	
+
+
+}

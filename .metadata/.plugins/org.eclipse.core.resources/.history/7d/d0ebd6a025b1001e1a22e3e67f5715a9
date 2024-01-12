@@ -1,0 +1,12 @@
+package impl.practice;
+
+public class NameTag {
+	
+	String name;
+	
+	
+
+	public void name(String name) {}
+	
+	
+}

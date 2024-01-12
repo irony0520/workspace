@@ -1,0 +1,28 @@
+package impl.practice;
+
+public class SalaryMan extends NameTag{
+
+	
+	
+	
+	
+	
+	
+	@Override
+	public String getNameTag() {
+		// TODO Auto-generated method stub
+		return this.name;
+	}
+
+	@Override
+	public double calcTax() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public int Salary(int salary) {
+		return salary;
+		
+	}
+	
+}

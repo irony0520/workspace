@@ -1,0 +1,21 @@
+package ch08;
+
+public class BusExam {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Vehicle vehicle = new Bus();
+		
+		vehicle.run();
+		//vehicle.checkFare();
+		
+		Bus bus = (Bus) vehicle; //강제형변환 bus(변수이름) 
+		
+		
+		bus.run();
+		bus.checkFare();
+		
+	}
+
+}
