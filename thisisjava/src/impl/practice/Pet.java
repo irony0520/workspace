@@ -18,6 +18,7 @@ public  class Pet {
 	public static void age() { 
 		System.out.println("개의 나이를 입력하세요:");
 		age = scanner.nextInt();
+		scanner.nextLine();
 	}
 	
 }
