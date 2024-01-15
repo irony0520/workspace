@@ -36,13 +36,13 @@ public class SalaryMan extends NameTag{
 		if(salary>80000000) {
 			tax = salary*0.3;
 		}
-		else if(salary>60000000); {
+		else if(salary>60000000) {
 			tax = salary*0.2;
 		}
-		else if(salary>40000000); {
+		else if(salary>40000000) {
 			tax = salary*0.15;
 		}
-		else if(salary>20000000); {
+		else if(salary>20000000) {
 			tax = salary*0.1;
 		}
 		else {
@@ -52,6 +52,9 @@ public class SalaryMan extends NameTag{
 		
 	}
 
-	
+ 	@Override 
+	public String getinfo () {
+		return 
+		
 	
 }
