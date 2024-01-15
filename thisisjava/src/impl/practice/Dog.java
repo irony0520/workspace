@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Dog extends Pet{
 	
-	static String wd;
-	static String cure;
+	private String wd;
+	private String cure;
 	
 	
 	public Dog() {}
