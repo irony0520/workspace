@@ -85,6 +85,9 @@ public class BusinessMan extends NameTag{
 
 
 	
-	
+	@Override 
+	public String getinfo () {
+		return "이름 : " + Business.getName() + ", 번호: " + Business.getTag() + ", 총매출: " + wholeProfit; + ", 총 매출" + wholeCost 
+		
 	
 }

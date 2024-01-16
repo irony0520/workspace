@@ -19,7 +19,7 @@ public class Student {
 		if(o instanceof Student s) {
 			if(this.id == s.id) {
 				return true;
-			}
+			}//재정의 
 		}
 		else {
 			return false;
