@@ -19,7 +19,7 @@ public class Member {
 	private final String name;
 	private final int age;
 	
-	
+	//@NonNull(초기화는 강제지만 나중에 값바꾸기가능)   final(불변) 
 	
 	
 }

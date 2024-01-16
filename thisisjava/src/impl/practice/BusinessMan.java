@@ -37,7 +37,7 @@ public class BusinessMan extends NameTag{
 		if(taxCost>=40000000) {
 			tax = taxCost*0.2;
 		}
-		else if(taxCost>0); {
+		else if(taxCost>0) {
 			tax = taxCost*0.1;
 		}else {
 			tax = 0;
@@ -45,6 +45,45 @@ public class BusinessMan extends NameTag{
 		return tax;
 		
 	}
+
+
+
+	@Override
+	public String getInfo() {
+		// TODO Auto-generated method stub
+		return "이름 : " + name + ", 번호: " + tag + ", 총매출: " + wholeProfit + ", 총 매출: " + wholeCost; 
+	}
+
+
+
+
+
+
+
+	@Override
+	public void setName(String name) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+
+
+
+
+
+	@Override
+	public void setTag(int tag) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+
+
+
+
+
 	
 	
 	

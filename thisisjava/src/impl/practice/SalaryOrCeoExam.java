@@ -6,14 +6,14 @@ public class SalaryOrCeoExam {
 	
 	public static void main(String[] args) {
 		
-		SalaryMan salary = new SalaryMan("ㅇ",23,304943);
+		SalaryMan salary =  new SalaryMan("선남",100,30000000);
 		System.out.println(salary.getInfo());
-		System.out.println(SalaryTaxPayer(salary));
+		System.out.println(salary.getName() + "의 세금 = " + SalaryTaxPayer(salary)) ;
 		
 
-		BusinessMan Business = new BusinessMan("ㅇ",23,304943,234);
+		BusinessMan Business = new BusinessMan("선녀",200,120000000,75000000);
 		System.out.println(Business.getInfo());
-		System.out.println(BusinessTaxPayer(Business));
+		System.out.println(Business.getName() + "의 세금 = " + BusinessTaxPayer(Business));
 	}
 	
 

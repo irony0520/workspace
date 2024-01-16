@@ -13,7 +13,7 @@ public class SalaryMan extends NameTag{
 	
 	
 	public String getInfo() {
-		return "이름: " + name + "번호: " + tag + "월급: " + salary;
+		return "이름: " + name + " 번호: " + tag + " 월급: " + salary;
 		
 	}
 	
@@ -36,13 +36,13 @@ public class SalaryMan extends NameTag{
 		if(salary>80000000) {
 			tax = salary*0.3;
 		}
-		else if(salary>60000000); {
+		else if(salary>60000000) {
 			tax = salary*0.2;
 		}
-		else if(salary>40000000); {
+		else if(salary>40000000) {
 			tax = salary*0.15;
 		}
-		else if(salary>20000000); {
+		else if(salary>20000000) {
 			tax = salary*0.1;
 		}
 		else {
@@ -52,6 +52,20 @@ public class SalaryMan extends NameTag{
 		
 	}
 
-	
-	
+
+	@Override
+	public void setName(String name) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	@Override
+	public void setTag(int tag) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
 }
+
