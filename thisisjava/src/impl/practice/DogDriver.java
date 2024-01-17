@@ -22,11 +22,20 @@ public class DogDriver {
 		tomorrow.setcure();
 	}
 	
-	public static boolean alertCure(Pet age, Dog setcure) {
-		if(age > 2 && )
+//	public static boolean alertCure(Pet age, Dog setcure) {
+//		if(age > 2 && )
+		
+//	}
+	public static String enterResult(Pet p) {
+
+		return "이름: " + p.name + "나이: " + p.age;
+		
 		
 	}
 	
+	public static String enterResult2(Dog wd) {
+		
+	}
 	
 	
 	
