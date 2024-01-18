@@ -1,9 +1,0 @@
-package tij.ch06.example;
-
-public class Accuont {
-
-	
-	static final int MIN_BALANCE= 0;
-	static final int MAX_BALANCE= 1000000;
-	
-}

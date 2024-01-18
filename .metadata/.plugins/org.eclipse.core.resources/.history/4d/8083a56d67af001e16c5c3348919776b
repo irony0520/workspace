@@ -1,6 +1,0 @@
-package thisisjava;
-
-public class Car {
-		
-	ch06.Car car = new ch06.Car();
-}
