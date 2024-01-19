@@ -1,9 +1,0 @@
-package ch08.example;
-
-public class Dog implements Soundable{
-	
-	public String sound(){
-		System.out.println("멍멍");
-	}
-
-}

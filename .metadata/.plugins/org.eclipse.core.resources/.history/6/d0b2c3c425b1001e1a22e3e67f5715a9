@@ -1,7 +1,0 @@
-package impl.practice;
-
-public class SalaryMan extends NameTag{
-
-	
-	
-}
