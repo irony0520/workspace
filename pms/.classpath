@@ -6,7 +6,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/CodePC/Downloads/lombok.jar"/>
-	<classpathentry kind="lib" path="lib/json-20231013.jar"/>
+	<classpathentry kind="lib" path="src/lib/json-20231013.jar"/>
+	<classpathentry kind="lib" path="src/lib/lombok.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

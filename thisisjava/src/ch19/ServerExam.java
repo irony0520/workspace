@@ -1,15 +1,19 @@
 package ch19;
 
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Scanner;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public class ServerExam {
 
 	private static ServerSocket serverSocket = null;
-	
+	private static ExecutorService executorService = Executors.newFixedThreadPool(10);
 	public static void main(String[] args) {
 		
 		System.out.println("-----------------------------");
@@ -28,12 +32,29 @@ public class ServerExam {
 						System.out.println("[서버] 연결을 기다림");
 						Socket socket = serverSocket.accept();
 						
-						InetSocketAddress isa = (InetSocketAddress)socket.getRemoteSocketAddress();
-						System.out.println("[서버]" + isa.getHostName() + "의 연결을 수락함");
+							executorService.execute(() -> {
+								try {
+									InetSocketAddress isa = (InetSocketAddress)socket.getRemoteSocketAddress();
+									System.out.println("[서버]" + isa.getHostName() + "의 연결을 수락함");
+									
+									DataInputStream dis = new DataInputStream(socket.getInputStream());
+									String message = dis.readUTF();
+									
+									
+									DataOutputStream dos = new DataOutputStream(socket.getOutputStream());
+									dos.writeUTF(message);
+									dos.flush();
+									System.out.println("서버에서 받은 데이터 " + message + "를 보냄");
+											
+									
+									socket.close();
+									System.out.println("[서버]" + isa.getHostName() + "의 연결을 끊음");
+						
+								}catch(IOException e) {}
+						
+						});
 						
 						
-						socket.close();
-						System.out.println("[서버]" + isa.getHostName() + "의 연결을 끊음");
 					}
 					
 				}catch(IOException e) {
