@@ -88,6 +88,7 @@ public class MainProcess {
 			 	Person person2 = new Person(id, name, age, student, homeTel, mobileTel, skill); 
 			 	
 			 	people.add(person2);
+			 	
 			 	System.out.println("데이터가 추가되었습니다.");
 			 	}		 	
 			 		break;
@@ -113,13 +114,37 @@ public class MainProcess {
 			 		System.out.println("수정할 필드를 입력하세요: ");
 			 		String changeField = scanner.nextLine();
 			 		switch(changeField) {
-			 		case "id":  //??
+			 		case "id":  System.out.println("변경할 id를 입력하세요: ");
+			 		String changeId = scanner.nextLine();
+			 		
+			 		case "name":  System.out.println("변경할 이름을 입력하세요: ");
+			 		String changeName = scanner.nextLine();
+			 		
+			 		case "age":  System.out.println("변경할 나이를 입력하세요: ");
+			 		int changeAge = scanner.nextInt();
+			 		
+			 		case "student":  System.out.println("변경할 학생여부를 예 혹은 아니오로 입력하세요: ");
+			 		String changeStudent = scanner.nextLine();
+			 		if(changeStudent.equals("예")) {
+			 			changeStudent = true;
+			 		}else {
+			 			. false;
 			 		}
-			 	
+			 		case "tel":  System.out.println("변경할 전화번호를 입력하세요: ");
+			 		int changeTel = scanner.nextInt();
 			 		
-			 		
+			 		case "skill":  System.out.println("변경할 보유기술을 입력하세요: ");
+			 		String changeSkill = scanner.nextLine();
+			 		}
+			 		//tel, skill 항목은 여러개 
+			 		// 잘못 입력한 경우 설정 ??			 			 				 		
 			 		break;
-			 	case 4:	
+			 		
+			 	case 4://아이디를 입력받는다
+			 		System.out.println("아이디를 입력하세요: ");
+			 		String enterID2 = scanner.nextLine();
+			 		
+			 		//아이디가 데이터 상에 존재하지 않으면 ?
 			 		break;
 			 	case 5:	
 			 		break;
