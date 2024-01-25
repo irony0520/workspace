@@ -25,7 +25,7 @@ public class JTabbedPaneExam extends JFrame{
 	private JTabbedPane getJTabbedPane() {
 		if(jTabbedPane ==null) {
 			jTabbedPane = new JTabbedPane();
-			jTabbedPane.setTabPlacement(JTabbedPane.LEFT);
+			jTabbedPane.setTabPlacement(JTabbedPane.LEFT); //tab1 , 2의 위치 
 			jTabbedPane.addTab("탭1",getTab1Panel());
 			jTabbedPane.addTab("탭2",getTab1Pane2());
 		}
@@ -55,7 +55,7 @@ public class JTabbedPaneExam extends JFrame{
 
 	public static void main(String[] args) {
 		SwingUtilities.invokeLater(() -> {
-			JTabbedPaneExam jt = new JTabbedPaneExam();
+			JTabbedPaneExam jt = new JTabbedPaneExam(); 
 			jt.setVisible(true);
 		});
 
