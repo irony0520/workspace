@@ -4,6 +4,8 @@ import lombok.*;
 
 @Data
 @AllArgsConstructor
+@Getter
+@Setter
 public class Tel {
 	
 	private String home;

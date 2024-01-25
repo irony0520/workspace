@@ -4,6 +4,8 @@ import lombok.*;
 
 @Data
 @AllArgsConstructor
+@Getter
+@Setter
 public class Person {
 
 		private String id;
